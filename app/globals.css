@@ -12,15 +12,14 @@
   margin: 0;
 }
 
-html,
-body {
-  max-width: 1200px;
-  margin: auto;
-}
-
 body {
   color: black;
   background-color: whitesmoke;
+}
+
+.center-content {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
