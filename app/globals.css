@@ -23,6 +23,10 @@ body {
   background-color: whitesmoke;
 }
 
+header {
+  text-align: center;
+}
+
 a {
   color: inherit;
   text-decoration: none;
