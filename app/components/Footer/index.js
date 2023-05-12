@@ -1,3 +1,4 @@
+import "./footer.css";
 import Link from "next/link";
 import InstagramLogo from "../Logos/Instagram";
 import TelegramLogo from "../Logos/Telegram";
