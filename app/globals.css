@@ -37,7 +37,7 @@ a:hover {
 }
 
 footer {
-  width: 100%;
+  width: 90%;
   max-width: 600px;
   position: fixed;
   bottom: 0;
@@ -45,10 +45,10 @@ footer {
   transform: translateX(-50%);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .container-links {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
