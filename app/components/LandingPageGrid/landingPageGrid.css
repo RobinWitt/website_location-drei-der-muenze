@@ -5,3 +5,12 @@
   padding: 1rem;
   gap: 1rem;
 }
+
+@media (orientation: portrait) {
+  .landing-page_grid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1.5rem;
+  }
+}

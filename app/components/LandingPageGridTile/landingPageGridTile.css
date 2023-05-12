@@ -14,13 +14,25 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
   color: whitesmoke;
   font-size: 2rem;
+  font-weight: 400;
   text-shadow: 5px 5px 2px black;
 }
 
 .grid_image {
   width: 100%;
   height: auto;
+}
+
+@media (orientation: portrait) {
+  .grid_link {
+    height: 20vh;
+  }
+
+  .grid_image {
+    object-fit: cover;
+    height: 100%;
+  }
 }
