@@ -1,3 +1,5 @@
+// contains three attributes: Name of page, Image-URL, Link
+
 export const LandingPageContent = [
   {
     title: "Café",
