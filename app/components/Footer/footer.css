@@ -1,6 +1,4 @@
 footer {
-  width: 90%;
-  max-width: 600px;
   position: fixed;
   bottom: 0;
   left: 50%;
@@ -9,6 +7,9 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  border-bottom: 2px solid;
+  padding: 0 8px;
+  margin-bottom: 5px;
 }
 
 .container-links {

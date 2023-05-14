@@ -1,3 +1,9 @@
 header {
   text-align: center;
+  margin-bottom: -1.5rem;
+}
+
+.header-logo {
+  width: 100%;
+  max-width: 600px;
 }

@@ -1,11 +1,11 @@
 import ImageSwiper from "../components/ImageSwiper";
 import OpeningHours from "../components/OpeningHours";
-import { cafeImages, openingHours } from "../data/Cafe";
+import { cafeImages, cafeOpeningHours } from "../data/Cafe";
 
 export default function Cafe() {
   return (
     <main>
-      <OpeningHours openingHours={openingHours} />
+      <OpeningHours openingHours={cafeOpeningHours} />
       <ImageSwiper images={cafeImages} />
     </main>
   );

@@ -7,9 +7,9 @@ export default function Header() {
       <h1>
         <Link href={"/"}>
           <svg
+            className="header-logo"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 315.11 124.96"
-            style={{ width: "100%", maxWidth: "600px" }}
           >
             <title>Drei der Münze Logo</title>
             <path d="m113.75,35.14c3.6,0,6.51-2.51,6.51-5.62s-2.92-5.62-6.51-5.62-6.51,2.51-6.51,5.62,2.92,5.62,6.51,5.62Z" />
