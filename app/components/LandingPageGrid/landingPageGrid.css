@@ -2,15 +2,14 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 1rem;
   gap: 1rem;
 }
 
-@media (orientation: portrait) {
+@media screen and (max-width: 600px) {
   .landing-page_grid {
     display: flex;
     flex-direction: column;
     height: 100%;
-    padding: 1.5rem;
+    padding: 0 0.2rem;
   }
 }

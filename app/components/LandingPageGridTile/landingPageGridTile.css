@@ -6,7 +6,7 @@
 }
 
 .grid_link:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   transition: transform ease-out 0.2s;
 }
 
@@ -26,7 +26,7 @@
   height: auto;
 }
 
-@media (orientation: portrait) {
+@media screen and (max-width: 600px) {
   .grid_link {
     height: 20vh;
   }

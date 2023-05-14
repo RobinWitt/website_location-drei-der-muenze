@@ -4,7 +4,7 @@ export const LandingPageContent = [
   {
     title: "Café",
     src: "https://images.unsplash.com/photo-1498804103079-a6351b050096",
-    href: "/",
+    href: "/cafe",
   },
   {
     title: "Bar",
