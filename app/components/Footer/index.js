@@ -15,7 +15,7 @@ export default function Footer() {
         </Link>
       </div>
       <div className="container-links">
-        <Link href={"/"}>Impressum</Link>
+        <Link href={"/impressum"}>Impressum</Link>
         <Link href={"/"}>Datenschutz</Link>
       </div>
     </footer>
