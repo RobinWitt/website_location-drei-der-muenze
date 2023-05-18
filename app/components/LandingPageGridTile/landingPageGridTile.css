@@ -7,7 +7,7 @@
 
 .grid_link:hover {
   transform: scale(1.03);
-  transition: transform ease-out 0.2s;
+  transition: transform ease-in-out 0.2s;
 }
 
 .grid_heading {
