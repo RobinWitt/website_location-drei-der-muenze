@@ -24,7 +24,7 @@ body {
 }
 
 main {
-  margin: 1rem;
+  margin: 0 1rem 4rem;
 }
 
 a {
@@ -34,4 +34,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+button {
+  font: inherit;
 }
