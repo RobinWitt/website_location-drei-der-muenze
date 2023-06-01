@@ -7,33 +7,67 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid;
 }
 
 .barContactButton {
-  padding: 0.3rem;
   width: 100%;
+  padding: 0.5rem;
   border-radius: 0;
   border: none;
+  border-radius: 5px;
+  background-color: var(--bar-turkis);
+  color: whitesmoke;
+}
+
+.barContactDisplayButton {
+  padding-left: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barContactButton:hover,
+.barContactButton:active {
+  transform: translateY(1px);
 }
 
 .barContactForm {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0.3rem 1rem 1rem;
 }
 
 .barContactForm > label {
-  margin-top: 0.3rem;
+  margin: 0.3rem 0;
 }
 
-.barContactForm > input {
-  line-height: 1.5;
+.barContactForm > input,
+textarea {
+  padding: 0.3rem;
+  font-size: large;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.barContactForm > input:focus:valid,
+textarea:focus:valid {
+  outline: 2px solid lightgreen;
+}
+
+.barContactForm > input:focus:invalid,
+textarea:focus:invalid {
+  outline: 2px solid red;
+}
+
+.barContactForm > textarea {
+  resize: none;
 }
 
 .checkbox_container {
-  padding: 0.5rem 0;
+  margin: 0.5rem;
+  display: flex;
+  gap: 16px;
 }
 .checkbox_container > input {
-  margin-right: 0.5rem;
+  transform: scale(1.5);
 }

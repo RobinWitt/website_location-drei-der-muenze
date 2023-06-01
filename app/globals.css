@@ -1,4 +1,7 @@
 :root {
+  --cafe-red: #d25840;
+  --bar-turkis: #006f77;
+  --tattoo-mint: #c2d991;
 }
 
 @media (prefers-color-scheme: dark) {
