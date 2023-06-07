@@ -4,6 +4,8 @@ import { useState } from "react";
 import "./barContact.css";
 import ChevronDown from "../Logos/ChevronDown";
 import ContactForm from "./contactForm";
+import barContactHandler from "@/app/lib/barContactHandler";
+import testMail from "@/app/lib/testMail";
 
 export default function BarContact() {
   const [showContactForm, setShowContactForm] = useState(false);
@@ -23,21 +25,10 @@ export default function BarContact() {
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData);
 
-    // try {
-    //   const res = await fetch("../app/api/BarContactHandler", {
-    //     method: "POST",
-    //     body: JSON.stringify({
-    //       data,
-    //     }),
-    //     headers: {
-    //       "content-type": "application/json",
-    //     },
-    //   });
-    // } catch (error) {
-    //   console.error("Error:", error);
-    // }
-
-    setShowContactForm(false);
+    //testMail();
+    //barContactHandler(data);
+    // e.target.reset();
+    //setShowContactForm(false);
   }
 
   return (

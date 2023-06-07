@@ -10,8 +10,8 @@ export default function ContactForm({ onSubmit }) {
         id="subjectInput"
         name="subject"
         type="text"
-        maxLength={20}
-        pattern="^[A-Za-zÄÖÜäöüß0-9\s]+$"
+        maxLength={30}
+        pattern="^[A-Za-zÄÖÜäöüß0-9\s.-]+$"
         title="keine Sonderzeichen erlaubt"
         required
       />
@@ -22,7 +22,7 @@ export default function ContactForm({ onSubmit }) {
         rows={4}
         cols={50}
         maxLength={200}
-        pattern="^[A-Za-zÄÖÜäöüß0-9\s]+$"
+        pattern="^[A-Za-zÄÖÜäöüß0-9\s.-]+$"
         required
       ></textarea>
       <label htmlFor="emailInput">Email-Adresse</label>
