@@ -27,10 +27,11 @@ export default function BarContact() {
     //barContactHandler(data);
     // e.target.reset();
     //setShowContactForm(false);
+    setisSubmitted(true);
   }
 
   return (
-    <section id="barContactSection">
+    <section className="barContactSection">
       <button
         aria-label="Kontaktformular öffnen"
         id="toggleBarContactButton"
@@ -38,10 +39,12 @@ export default function BarContact() {
         type="button"
         onClick={handleContactForm}
       >
-        <h3>Kontakt</h3>
+        Kontakt
         <ChevronDown rotate={showContactForm} />
       </button>
-      {showContactForm && <ContactForm onSubmit={handleSubmit} />}
+      {showContactForm && (
+        <ContactForm onSubmit={handleSubmit} isSubmitted={isSubmitted} />
+      )}
     </section>
   );
 }

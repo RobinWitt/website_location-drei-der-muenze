@@ -10,13 +10,13 @@ export default function Footer() {
         <Link href={"https://www.instagram.com/dreidermuenze/"} target="blank">
           <InstagramLogo />
         </Link>
-        <Link href={"/"} target="blank">
+        <Link href={"https://t.me/dreidermuenze"} target="blank">
           <TelegramLogo />
         </Link>
       </div>
       <div className="container-links">
         <Link href={"/impressum"}>Impressum</Link>
-        <Link href={"/"}>Datenschutz</Link>
+        <Link href={"/datenschutz"}>Datenschutz</Link>
       </div>
     </footer>
   );
