@@ -1,5 +1,5 @@
 // containing of one string
-export const cafeOpeningHours = "10:00 - 16:00";
+export const cafeOpeningHours = "12:00 - 18:00";
 
 // containing of an array of image objects, with keys id, src, alt
 export const cafeImages = [
