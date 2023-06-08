@@ -12,8 +12,8 @@ export default function LandingPageGridTile({ title, src, href }) {
           className="grid_image"
           src={src}
           alt={title}
-          height={400}
-          width={400}
+          width={600}
+          height={600}
         />
       </Link>
     </div>

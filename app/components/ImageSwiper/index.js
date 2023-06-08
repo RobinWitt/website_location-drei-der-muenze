@@ -32,7 +32,7 @@ export default function ImageSwiper({ images }) {
         {images?.map(({ id, src, alt }) => {
           return (
             <SwiperSlide key={id}>
-              <Image src={src} alt={alt} fill sizes="600px" />
+              <Image src={src} alt={alt} fill sizes="600px" priority />
             </SwiperSlide>
           );
         })}

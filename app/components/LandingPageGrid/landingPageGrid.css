@@ -7,9 +7,9 @@
 
 @media screen and (max-width: 600px) {
   .landing-page_grid {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    height: 100%;
     padding: 0 0.2rem;
   }
 }
