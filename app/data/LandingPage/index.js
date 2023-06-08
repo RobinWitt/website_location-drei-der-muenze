@@ -14,6 +14,6 @@ export const LandingPageContent = [
   {
     title: "Tattoo",
     src: "https://images.unsplash.com/photo-1562962230-16e4623d36e6",
-    href: "/",
+    href: "/tattoo",
   },
 ];
