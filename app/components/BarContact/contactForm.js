@@ -11,8 +11,9 @@ export default function ContactForm({ onSubmit }) {
         name="subject"
         type="text"
         maxLength={30}
+        placeholder="30 Zeichen"
         pattern="^[A-Za-zÄÖÜäöüß0-9\s.-]+$"
-        title="keine Sonderzeichen erlaubt"
+        title="Erlaubt sind Buchstaben, Zahlen, Punkt und Bindestrich"
         required
       />
       <label htmlFor="contentTextarea">Inhalt</label>
@@ -22,6 +23,7 @@ export default function ContactForm({ onSubmit }) {
         rows={4}
         cols={50}
         maxLength={200}
+        placeholder="200 Zeichen"
         pattern="^[A-Za-zÄÖÜäöüß0-9\s.-]+$"
         required
       ></textarea>
@@ -32,6 +34,7 @@ export default function ContactForm({ onSubmit }) {
           id="dataConsentCheckbox"
           name="dataConsent"
           type="checkbox"
+          placeholder="name@beispiel.com"
           required
         />
         <label htmlFor="dataConsentCheckbox">
