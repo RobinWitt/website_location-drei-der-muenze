@@ -1,11 +1,10 @@
 "use client";
 
-import { useState } from "react";
 import "./barContact.css";
+import { useState } from "react";
 import ChevronDown from "../Logos/ChevronDown";
 import ContactForm from "./contactForm";
 import barContactHandler from "@/app/lib/barContactHandler";
-import testMail from "@/app/lib/testMail";
 
 export default function BarContact() {
   const [showContactForm, setShowContactForm] = useState(false);
@@ -25,7 +24,6 @@ export default function BarContact() {
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData);
 
-    //testMail();
     //barContactHandler(data);
     // e.target.reset();
     //setShowContactForm(false);
